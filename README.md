@@ -1,8 +1,9 @@
-Computer-Vision-Project-Driver-drowsiness-detection-Full-code-explanation-OpenCV-Python-Dlib
-Applications
-This can be used by riders who tends to drive the vehicle for a longer period of time that may lead to accidents
-Code Requirements
-The example code is in Python (version 3.8 or higher will work).
+# Driver Drowsiness Detection System
+
+Overview
+
+This project implements a real-time driver drowsiness detection system using OpenCV, Python, and deep learning techniques. It monitors the driver's facial landmarks, detects eye aspect ratio (EAR), and classifies drowsiness levels to enhance road safety.
+
 Features
 
 Real-time detection of drowsiness using a webcam.
@@ -20,21 +21,6 @@ Programming Language: Python
 Libraries: OpenCV, dlib, imutils, NumPy
 
 Deep Learning: Keras (Optional for advanced detection models)
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/driver-drowsiness-detection.git
-cd driver-drowsiness-detection
-
-Install required dependencies:
-
-pip install -r requirements.txt
-
-Run the detection script:
-
-python drowsiness_detector.py
 
 How It Works
 
